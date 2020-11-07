@@ -32,6 +32,5 @@ class Solution {
       System.out.print(romanToInt(s));
     }
     
-    
     }
 //PARABOY
