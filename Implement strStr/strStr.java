@@ -22,5 +22,11 @@ class Solution {
             return -1;
         }
     }
+    public static void main(String[] args)
+    {
+        String haystack="hello";
+        String needle="ll";
+        System.out.print(strStr(haystack,needle);
+    }
 }
 //PARABOY
