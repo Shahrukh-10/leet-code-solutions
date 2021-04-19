@@ -1,0 +1,15 @@
+a = 'Hi HellX'
+lst = a.split()
+b =''
+for word in lst:
+    no = len(word)
+    # print(no)
+    for ch in word:
+        if ((ord(ch) + no) <= 122 and (ord(ch) + no) >= 97) or ((ord(ch) + no) <= 90 and (ord(ch) + no) >= 65):
+            b = b+chr(ord(ch) + no) 
+        elif (ord(ch) + no) >122:
+            b=b+"z"
+        else:
+            b=b+"Z"
+    b=b+" "
+print(b)
